@@ -57,7 +57,7 @@ const willBeAlive = (cell, state) => {
   const livingNeighbors - getNeighbors(cell, state);
   return(
     livingNeighbors.length===3||
-    (contains.call(state,cell) && livingNeighbors.length===2)
+    (contains.call(state,cell) && livingNeighbors.length===1)
 
     );
 };
