@@ -57,7 +57,7 @@ const willBeAlive = (cell, state) => {
   const livingNeighbors = getLivingNeighbors(cell, state);
 
   return (
-    livingNeighbors.length === 3
+    livingNeighbors.length === 3 ||
     (contains.call(state,cell) && livingNeighbors.length ===2)
 
     );
