@@ -65,7 +65,7 @@ const willBeAlive = (cell, state) => {
 };
 
 const calculateNext = (state) => {
-
+};
 const iterate = (state, iterations) => {};
 
 const main = (pattern, iterations) => {};
